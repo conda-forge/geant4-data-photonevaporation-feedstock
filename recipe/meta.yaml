@@ -1,6 +1,6 @@
 {% set dataset_name = "PhotonEvaporation" %}
-{% set version = "5.3" %}
-{% set sha256 = "f5250795c77920a6664059c6c3e121f36b7407637a234f2c3c12f32e89697634" %}
+{% set version = "5.4" %}
+{% set sha256 = "179bf8342571a5d5726399c94912d14a135801009532a87ce6a1be8d70d252f9" %}
 {% set env_var = "G4LEVELGAMMADATA" %}
 {% set summary = "GEANT4 data files for photon evaporation" %}
 
