@@ -12,11 +12,11 @@ package:
 
 source:
   url: https://geant4-data.web.cern.ch/geant4-data/datasets/G4{{ dataset_name }}.{{ version }}.tar.gz
-  sha256: 4fe8d7400d6461b9bfec27c4a1867c4b7df60581ab9feaf2bbdee924e8bcb4cc
+  sha256: 761e42e56ffdde3d9839f9f9d8102607c6b4c0329151ee518206f4ee9e77e7e5
   folder: dataset
 
 build:
-  number: 0
+  number: 1
   noarch: generic
   script:
     - mkdir -p ${PREFIX}/{{ install_dir }}
@@ -41,5 +41,5 @@ about:
 
 extra:
   recipe-maintainers:
-    - tschoonj
     - chrisburr
+    - tkittel
